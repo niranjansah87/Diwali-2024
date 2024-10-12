@@ -1,7 +1,9 @@
 @import url("https://fonts.googleapis.com/css?family=Sacramento");
+@import url("https://fonts.googleapis.com/css?family=Berkshire+Swash");
+@import url("https://fonts.googleapis.com/css?family=Roboto+Condensed:300");
 body {
   background-color: #212121;
-  font-family: "Sacramento", cursive;
+  
 }
 
 .container {
@@ -16,9 +18,10 @@ body {
 }
 .container .title {
   font-size: 5rem;
+  font-family: 'Berkshire Swash', cursive;
   color: rgba(255, 255, 255, 0.5);
   text-align: center;
-  text-shadow: 0px 2px 1px orange, 0px 0px 6px orangered, 0px 5px 10px black;
+  text-shadow: 0px 2px 1px rgb(255, 166, 0), 0px 0px 6px orangered, 0px 5px 10px black;
 }
 section
 {
