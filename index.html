@@ -9,12 +9,17 @@
 </style>
 </head>
 <body>
+ 
   <!-- <canvas id="particle"></canvas> -->
   <!-- <canvas id="canvas"></canvas> -->
- 
-  <section class="fire" id="sec1"></section>
+  <video autoplay muted loop id="myVideo">
+    <source src="./diwali.mp4" type="video/mp4">
+  </video>
+  <section class="fire" id="sec1">
+  </section>
  
   <section class="content" id="sec2">
+  
   
 <div class="container">
   
@@ -37,7 +42,7 @@
 <script type="text/javascript">
   $('.fire').fireworks({ 
     sound: true, // sound effect
-    opacity: 0.9, 
+    opacity: 0.5, 
     width: '100%', 
     height: '100%' 
   });
